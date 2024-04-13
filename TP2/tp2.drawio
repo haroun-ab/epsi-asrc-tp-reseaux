@@ -1,0 +1,63 @@
+<mxfile host="65bd71144e">
+    <diagram id="-McMg9OF9z0NO1lONCwz" name="Page-1">
+        <mxGraphModel dx="746" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#FFFF99;fontColor=#000000;fillColor=#FFFF99;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="250" width="171.55" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#FF99FF;fontColor=#000000;fillColor=#FF99FF;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="150.45" y="250" width="171.55" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="SRV2" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="375" width="28.000000000000004" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ST1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="260" width="36.89" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="ST2" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="380" width="36.89" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="7" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Switch" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/switch.svg;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="320" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;&quot;&gt;SRV1&lt;/span&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="265" width="28.000000000000004" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="11" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="345" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#000000&quot;&gt;R1&lt;/font&gt;" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="315" width="55" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="14" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="14" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Switch" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/switch.svg;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="320" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b&gt;ip: 172.17.0.0/16&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeWidth=3;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="250" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;b&gt;ip: 172.16.0.0/16&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;strokeWidth=3;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="250" width="101" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

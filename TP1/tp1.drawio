@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="dWa-N0HkuiiFkD33r78h" name="Page-1">
+        <mxGraphModel dx="490" dy="342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;span style=&quot;&quot;&gt;Server&lt;/span&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="330" width="28.000000000000004" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="ST1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="260" width="36.89" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="ST2" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="380" width="36.89" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Switch" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/switch.svg;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="330" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
